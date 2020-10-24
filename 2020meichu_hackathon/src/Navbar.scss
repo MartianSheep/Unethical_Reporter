@@ -1,0 +1,11 @@
+@import '~react-pro-sidebar/dist/scss/styles.scss';
+
+.pro-sidebar .pro-menu .pro-menu-item {
+    font-size: 25px !important;
+}
+
+.pro-sidebar {
+    position: fixed;
+    height: 100vh;
+    width: 400px;
+}
