@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import school_icon from './image/school_icon.jpg'
 import 'react-pro-sidebar/dist/css/styles.css'
 import './Navbar.scss'
+import DashBoard from './DashBoard'
 
 const Navbar = (props) => {
 

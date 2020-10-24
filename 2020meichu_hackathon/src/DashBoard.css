@@ -1,0 +1,21 @@
+:root {
+    --navbar-width: 400px;
+    /* background-color:(0,0,0,0.103); */
+    color:white;
+}
+
+.dashboard-main {
+    margin-left: var(--navbar-width);
+
+    font-size: 30px;
+
+    position: relative;
+
+    height: 100vh;
+    /* background-color:(0,0,0,0.103); */
+}
+.dashboard-title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
