@@ -1,0 +1,11 @@
+{
+    "QUIT_KEY_DETECT_WORD": "BIGBANG",
+    "KEY_DETECT_LOG_NAME":"/KeyBoardListen.json",
+    "DETECT_LOG_TEMPLATE":
+    {
+        "INPUT_LOG":"",
+        "START_TIME":"",
+        "END_TIME":"",
+        "INTERVALS":[]
+    }
+}
