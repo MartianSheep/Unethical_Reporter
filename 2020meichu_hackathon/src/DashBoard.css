@@ -3,7 +3,15 @@
     /* background-color:(0,0,0,0.103); */
     color:white;
 }
+ul {
 
+    display:block;
+
+    list-style-type:none;
+
+    margin:10px;
+
+}
 .dashboard-main {
     margin-left: var(--navbar-width);
 
@@ -11,7 +19,7 @@
 
     position: relative;
 
-    height: 100vh;
+    height: 110vh;
     /* background-color:(0,0,0,0.103); */
 }
 .dashboard-title {
@@ -19,3 +27,12 @@
     justify-content: center;
     margin: auto;
 }
+.dashboard-text {
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+}
+
+
