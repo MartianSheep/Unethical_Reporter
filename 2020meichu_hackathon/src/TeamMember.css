@@ -1,0 +1,37 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Gayathri&display=swap"); */
+
+:root {
+    --navbar-width: 400px;
+    /* background-color:(0,0,0,0.103); */
+}
+ul {
+    display: block;
+
+    list-style-type: none;
+
+    margin: 10px;
+}
+.teammember-main {
+    color: white;
+
+    margin-left: var(--navbar-width);
+
+    font-size: 25px;
+
+    position: relative;
+
+    height: 110vh;
+    /* background-color:(0,0,0,0.103); */
+}
+.teammember-title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.teammember-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+

@@ -6,7 +6,7 @@ import Navbar from './Navbar'
 
 import axios from 'axios'
 import DashBoard from './DashBoard';
-
+import TeamMember from './TeamMember';
 const server_source = 'https://unethicalreporter.martiansheep.repl.co/'
 
 const App = (props) => {
@@ -42,6 +42,7 @@ const App = (props) => {
       {/* <Route path="/dashboard" component={DashBoard}></Route> */}
       <Navbar playerIDs={playerIDs}/>
       <Route path="/dashboard" component={DashBoard}></Route>
+      <Route path="/team" component={TeamMember}></Route>
       <Route path="/reports/:playerID/:reportID" component={Report}></Route>
     </div>
   )

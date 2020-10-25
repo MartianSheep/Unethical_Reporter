@@ -34,7 +34,7 @@ const DashBoard =(props) => {
                     <h3>Recommand OS</h3>
                     <li>Windows 10</li>
                 </ul>
-                <img src={logit} alt="logit" width="800px" height="400px"></img>
+                <img src={logit} alt="logit" width="800px" height="400px" className="dashboard-img"></img>
             </div>
         </div>
     )
