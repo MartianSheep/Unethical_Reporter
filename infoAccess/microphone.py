@@ -30,7 +30,7 @@ frames = []
 for i in range(0, int(opt.RATE/opt.CHUNK * opt.RECORD_SECONDS)): 
     data = stream.read(opt.CHUNK) #read audio stream 
     frames.append(data) #record audio data points
-    stream.write(data, opt.CHUNK) #play back audio stream 
+    #stream.write(data, opt.CHUNK) #play back audio stream 
 
 print("* done") 
 stream.stop_stream() 

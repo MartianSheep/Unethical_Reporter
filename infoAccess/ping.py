@@ -16,19 +16,20 @@ opt = opts()
 opt = opt.parse()
 
 ping = subprocess.Popen(
-    ["ping", "-c", opt.testTimes, opt.host],
+    ["ping", "-n", opt.testTimes, opt.host],
     stdout = subprocess.PIPE,
     stderr = subprocess.PIPE
 )
 out, error = ping.communicate()
-out = out.decode("utf-8")
-#print('out:', out)
-out = out.split('time=')
+print(out)
+out = out.decode("MS950", errors="ignore")
+print('out:', out)
+out = out.split('時間=')
 total_RTT = 0
 for text in out[1:]:
-    text = text.split(' ')[0]
+    text = text.split('ms')[0]
     total_RTT += float(text)
 average_RTT = total_RTT / len(out[1:])
 #print("average_RTT:", average_RTT)
-#print("ping:", round(average_RTT))
+print("ping:", round(average_RTT))
 #print('error:', error)

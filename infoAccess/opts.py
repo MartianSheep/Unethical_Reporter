@@ -13,7 +13,7 @@ class opts():
 		self.parser.add_argument('--host', type = str, default = "krunker.io")
 		self.parser.add_argument('--testTimes', type = str, default = "5")
 		#for speechToText
-		self.parser.add_argument('--profanity_filter', type = bool, default = True)
+		self.parser.add_argument('--profanity_filter', type = bool, default = False)
 		self.parser.add_argument('--model', type = str, default = "command_and_search")
 
 
