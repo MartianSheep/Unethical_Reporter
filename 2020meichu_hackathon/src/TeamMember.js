@@ -19,9 +19,9 @@ const TeamMember =(props) => {
                 <ul>
                     <li><p>任瑨洋 <a href="https://github.com/MartianSheep" >github</a></p></li>
                     <li><p>吳東昱 <a href="https://github.com/MartianSheep" >github</a></p></li>
-                    <li><p>王友廷 <a href="https://github.com/MartianSheep" >github</a></p></li>
+                    <li><p>王友廷 <a href="https://github.com/noidname01" >github</a></p></li>
                     <li><p>張家翔 <a href="https://github.com/MartianSheep" >github</a></p></li>
-                    <li><p>陳亮君 <a href="https://github.com/MartianSheep" >github</a></p></li>
+                    <li><p>陳亮君 <a href="https://github.com/featherchen" >github</a></p></li>
                 </ul>
             </div>
         </div>

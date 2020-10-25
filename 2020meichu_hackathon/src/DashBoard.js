@@ -6,7 +6,7 @@ import 'react-pro-sidebar/dist/css/styles.css'
 import './Navbar.scss'
 import './DashBoard.css'
 import game from './image/game.jpg'
-import logit from './image/logit.png'
+import logit from './image/logitech.png'
 
 const DashBoard =(props) => {
     return (
@@ -34,7 +34,7 @@ const DashBoard =(props) => {
                     <h3>Recommand OS</h3>
                     <li>Windows 10</li>
                 </ul>
-                <img src={logit} alt="logit" width="800px" height="400px" className="dashboard-img"></img>
+                <img src={logit} alt="logit" width="600px" height="400px" className="dashboard-img"></img>
             </div>
         </div>
     )
