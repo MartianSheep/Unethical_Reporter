@@ -12,6 +12,7 @@ const Navbar = (props) => {
     const renderOptions = () => {
         // console.log(":XD")
         // console.log(props.reportIDs)
+        console.log(props.playerIDs)
         let arr = Object.keys(props.playerIDs).map(
             playerID => {
                 return(<PlayerReports key={playerID} playerID={playerID} reports={props.playerIDs[playerID]} />)
@@ -49,7 +50,7 @@ const Navbar = (props) => {
 }
 
 const PlayerReports = (props) => {
-
+    // console.log(props.reports)
     let reports = props.reports.map(
         reportID => {
             return(
