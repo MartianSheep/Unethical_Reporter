@@ -12,13 +12,13 @@ const DashBoard =(props) => {
     return (
         <div className="dashboard-main" style={{backgroundColor:"black"}}>
             <div className="dashboard-title">
-                <h1>Unethical reporter</h1>
+                <h1>G-key Reporting System</h1>
             </div>
             <div className="dashboard-title">
                 <a href="https://github.com/MartianSheep/Unethical_Reporter" >GET IT NOW</a>
             </div>
             <div className="dashboard-text">
-                <img src={game} alt="games" width="400px" height="350px"></img>
+                <img src={game} alt="games" width="400px" height="350px" className="dashboard-img"></img>
                 <ul>
                     <li><p>Players can report others' unethical action to game managers in an easier way.</p></li>
                     <li><p>Game managers can get the information be sent from players properly.</p></li>
@@ -34,7 +34,7 @@ const DashBoard =(props) => {
                     <h3>Recommand OS</h3>
                     <li>Windows 10</li>
                 </ul>
-                <img src={logit} alt="logit" width="400px" height="350px"></img>
+                <img src={logit} alt="logit" width="800px" height="400px"></img>
             </div>
         </div>
     )

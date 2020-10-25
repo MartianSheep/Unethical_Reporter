@@ -36,7 +36,7 @@ const Navbar = (props) => {
                 </MenuItem>
                 <MenuItem>
                     <p style={{fontSize:"30px", margin:"0", textAlign:'center'}}>
-                        Unethical Reporter
+                        G-key Reporting System
                     </p>
                 </MenuItem>
                 <MenuItem>DashBoard<Link to="/dashboard"/></MenuItem>
