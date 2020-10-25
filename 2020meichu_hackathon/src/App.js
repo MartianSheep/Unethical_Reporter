@@ -5,6 +5,7 @@ import Report from './Report'
 import Navbar from './Navbar'
 
 import axios from 'axios'
+import DashBoard from './DashBoard';
 
 const App = (props) => {
 
@@ -40,7 +41,9 @@ const App = (props) => {
 
   return(
     <div>
+      {/* <Route path="/dashboard" component={DashBoard}></Route> */}
       <Navbar playerIDs={playerIDs}/>
+      <Route path="/dashboard" component={DashBoard}></Route>
       <Route path="/reports/:playerID/:reportID" component={Report}></Route>
     </div>
   )

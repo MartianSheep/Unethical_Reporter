@@ -1,0 +1,64 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Gayathri&display=swap"); */
+
+:root {
+    --navbar-width: 400px;
+    /* background-color:(0,0,0,0.103); */
+    color:white;
+}
+ul {
+
+    display:block;
+
+    list-style-type:none;
+
+    margin:10px;
+
+}
+.dashboard-main {
+    margin-left: var(--navbar-width);
+
+    font-size: 25px;
+
+    position: relative;
+
+    height: 110vh;
+    /* background-color:(0,0,0,0.103); */
+}
+.dashboard-title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.dashboard-text {
+
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: auto;
+}
+.dashboard-img{
+    margin: 7px;
+    transition: all 0.25s;
+
+}
+.dashboard-img:hover{
+    transform:scale(1.1,1.1) ;
+}
+
+@keyframes shake {
+    40% {
+        transform: rotate(0deg);
+    }
+
+    45% {
+        transform: rotate(-5deg);
+    }
+
+    55% {
+        transform: rotate(5deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+}

@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import school_icon from './image/school_icon.jpg'
 import 'react-pro-sidebar/dist/css/styles.css'
 import './Navbar.scss'
+import DashBoard from './DashBoard'
 
 const Navbar = (props) => {
 
@@ -35,7 +36,7 @@ const Navbar = (props) => {
                 </MenuItem>
                 <MenuItem>
                     <p style={{fontSize:"30px", margin:"0", textAlign:'center'}}>
-                        Unethical Reporter
+                        G-key Reporting System
                     </p>
                 </MenuItem>
                 <MenuItem>DashBoard<Link to="/dashboard"/></MenuItem>
