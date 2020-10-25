@@ -3,18 +3,17 @@
 :root {
     --navbar-width: 400px;
     /* background-color:(0,0,0,0.103); */
-    color:white;
 }
 ul {
+    display: block;
 
-    display:block;
+    list-style-type: none;
 
-    list-style-type:none;
-
-    margin:10px;
-
+    margin: 10px;
 }
 .dashboard-main {
+    color: white;
+
     margin-left: var(--navbar-width);
 
     font-size: 25px;
@@ -30,19 +29,17 @@ ul {
     margin: auto;
 }
 .dashboard-text {
-
     display: flex;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
     margin: auto;
 }
-.dashboard-img{
+.dashboard-img {
     margin: 7px;
     transition: all 0.25s;
-
 }
-.dashboard-img:hover{
-    transform:scale(1.1,1.1) ;
+.dashboard-img:hover {
+    transform: scale(1.1, 1.1);
 }
 
 @keyframes shake {
